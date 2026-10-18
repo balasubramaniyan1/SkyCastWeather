@@ -81,7 +81,7 @@ function WeatherSearch() {
             id="city"
             name="city"
             type="text"
-            placeholder="For example, London"
+            placeholder="For example, Karur"
             value={city}
             onChange={(event) => setCity(event.target.value)}
             autoComplete="off"
